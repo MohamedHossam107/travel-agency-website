@@ -5,13 +5,18 @@
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+html, body
+{
+    overflow-x: hidden;
+}
+
 /* Start Header */
 
 .header
 {
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9.30,0.7),rgba(4,9,30,0.7)),url(../Img/1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Img/1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -47,7 +52,7 @@ nav
     position:relative;
 }
 
-.nav-links ul li a 
+.nav-links ul li::after 
 {
     color:#fff;
     text-decoration: none;
@@ -191,7 +196,7 @@ nav .fa
 h1
 {
     font-size:40px;
-    font-weight:600px;
+    font-weight:600;
 }
 
 p
