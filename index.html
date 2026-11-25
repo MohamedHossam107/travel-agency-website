@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <title> Travel </title>
+    <link rel="stylesheet" href="../4/Css/style.css">
+
+    <!--Font type-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+    <!--For Mobile mode list in header-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+
+    <!--Start Header-->
+
+    <section class="header">
+        <nav>
+            <h2 class="fl-left">TRA<span>VEL</span></h2>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <!--for close menu in mobile mode-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <!--for open menu in mobile mode-->
+        </nav>
+
+        <div class="text-box">
+            <h1>The Best Around The World</h1>
+            <p>
+                Travelling removes our monotony and gives pleasure. Similarly, it also broadens our outlook and
+                refreshes
+                our mind.<br> A good traveler can easily educate others. He can give us first-hand knowledge of men and
+                matters of other country
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!--End Header-->
+
+
+    <!--Start Destinations-->
+
+    <section class="Destinations">
+        <h1>Destinations We Offer</h1>
+        <p>
+            Travelling is an incredibly vital part of life. It is the best way to break your monotonous routine and
+            experience life in different ways. Moreover, it is also a good remedy for stress, anxiety and depression
+        </p>
+
+        <div class="row">
+                <div class="travel">
+                    <h3>Europe</h3>
+                    <p>
+                        The European continent is located completely in the northern hemisphere and mainly in the eastern
+                        hemisphere. Europe borders onto the Arctic Ocean in the North, the Atlantic Ocean in the west and the
+                        Mediterranean Sea in the South.
+                    </p>
+                </div>
+
+                <div class="travel">
+                    <h3>Asia</h3>
+                    <p>
+                        There are 48 countries in Asia that are recognised
+                        by the United Nations. Two of the Asian countries also share part of their territory on the European
+                        continent; these countries are Russia and Turkey
+                    </p>
+                </div>
+
+                <div class="travel">
+                    <h3>Africa</h3>
+                    <p>
+                        There are 54 countries in Africa - and 9 dependent territories. More than 1.3 billion people live on the
+                        African continent. This means about 15% of the world's total population live in Africa!
+                    </p>
+                </div>
+        </div>
+            </section>
+
+    <!--End Destinations-->
+
+    
+
+    <!-- Start Our Journey-->
+
+        <section class="Journey">
+            <h1>Our Journey</h1>
+            <p>You don't have to be rich to travel well</p>
+
+            <div class="row">
+                <div class="Journeys">
+                    <img src="./Img/2.jpg">
+                    <div class="layer">
+                        <h3>maldives</h3>
+                    </div>
+                </div>
+                <div class="Journeys">
+                    <img src="./Img/3.jpg">
+                    <div class="layer">
+                        <h3>Egypt</h3>
+                    </div>
+                </div>
+                <div class="Journeys">
+                    <img src="./Img/4.jpg">
+                    <div class="layer">
+                        <h3>Norway</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    <!-- End Our Journey-->
+
+
+    <!--Start Our Trips-->
+
+        <section class="trips">
+            <h1>Our Trips</h1>
+            <p>A life without journeys is one not lived at all</p>
+            <div class="row">
+                <div class="trip">
+                    <img src="../4/Img/5.jpg">
+                    <h3>Cliff Jumping</h3>
+                    <p>Cliff jumping is jumping off a cliff as a form of sport</p>
+                </div>
+                <div class="trip">
+                    <img src="../4/Img/6.jpg">
+                    <h3>Sky Diving</h3>
+                    <p>the sport or activity of jumping from an aircraft</p>
+                </div>
+                <div class="trip">
+                    <img src="../4/Img/7.jpg">
+                    <h3>Hiking</h3>
+                    <p>the activity of going for long walks, especially across country.</p>
+                </div>
+            </div>
+        </section>
+
+    <!--End Our Trips-->
+
+
+    <!--Start call to active-->
+
+        <section class="cta">
+            <h1>If You Want To Join Us In The Next Journey<br> Then Contact Us Now </h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+    <!--End call to active-->
+
+
+    <!--Start Footer -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <P>We are a company specializing in trips and wild adventures, and we make your boring life into a life full of adventures </P>
+            <!---->
+            <div class="footer">
+                <div class="container">
+                    <span> copyright &copy; 2021 TRAVEL </span>
+                    <ul>
+                        <li></li>
+                        <li><img src=".//Img/996.png" alt=""></li>
+                        <li><img src="./Img/997.png" alt=""></li>
+                        <li><img src="./Img/998.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <!---->
+        </section>
+
+    <!--End Footer-->
+
+
+
+
+    <!----------------------------------JavaScript for toggle menu------------------------------------------------------->
+    <!--java-->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+    <!--java-->
+</body>
+
+</html>
